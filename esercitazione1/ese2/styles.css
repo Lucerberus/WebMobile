@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif; /* Usiamo un font più comune */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex; /* Usiamo flexbox per allineare gli elementi */
+    justify-content: space-between; /* Allineiamo gli elementi ai lati */
+    align-items: center; /* Allineiamo gli elementi al centro verticalmente */
+    background-color: #4CAF50;
+    padding: 10px 20px; /* Aggiunto padding per spaziare gli elementi */
+    color: white;
+}
+
+.logo {
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.nav {
+    display: flex; /* Usiamo flexbox per allineare gli elementi */
+    gap: 20px;  /* Aggiunto spazio tra gli elementi */
+}
+
+.nav-link {
+    color: white;   /* Cambiato il colore del testo */
+    text-decoration: none;  /* Rimuoviamo il sottolineato */
+    font-size: 18px;    
+}
+
+.welcome-section {
+    text-align: center; /* Allineiamo il testo al centro */
+    padding: 50px 20px; /* Aggiunto padding per spaziare gli elementi */
+    background-color: #f4f4f4;
+}
+
+.welcome-title {
+    font-size: 36px;
+    margin-bottom: 20px; /* Aggiunto margine inferiore */
+}
+/*bottone per scopri di più*/
+.sdp-button { 
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;     /* Aggiunto padding per spaziare il testo */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px; /* Aggiunto un bordo arrotondato */
+}
+
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.service {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+}

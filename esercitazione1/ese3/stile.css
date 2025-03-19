@@ -1,0 +1,39 @@
+body.gallery-page {
+    font-family: Arial, sans-serif; /* Usiamo un font più comune */
+    margin: 0;  /* Rimuoviamo il margine */
+    padding: 20px; /* Aggiunto padding per evitare che il contenuto tocchi i bordi */
+    display: flex;  /* Usiamo flexbox per centrare il contenuto */
+    flex-direction: column; /* Allineiamo il contenuto in verticale */
+    align-items: center; /* Allineiamo il contenuto al centro */
+    background-color: #f4f4f4; /* Aggiunto un colore di sfondo */
+    min-height: 100vh; /* Usiamo min-height invece di height per permettere lo scrolling */
+}
+
+.gallery-title {
+    text-align: center; /* Allineiamo il testo al centro */
+    margin-bottom: 20px; /* Aggiunto margine inferiore */
+    font-size: 36px; /* Aumentato la dimensione del testo */
+    color: #333;    /* Cambiato il colore del testo */
+}
+
+.gallery {
+    display: grid; /* Usiamo grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Creiamo 3 colonne di larghezza uguale */
+    grid-template-rows: repeat(2, 1fr); /* Creiamo 2 righe di altezza uguale */
+    gap: 10px;  /*  Aggiunto spazio tra le immagini */
+    width: 80%; /*  Ridotto la larghezza della galleria */
+    max-width: 800px; /* Aggiunto un limite massimo di larghezza */
+}
+
+.gallery-item {
+    background-color: #fff; /* Aggiunto un colore di sfondo */
+    border: 1px solid #ddd; /* Aggiunto un bordo */
+    border-radius: 5px; /* Aggiunto un bordo arrotondato */
+    overflow: hidden;   /* Nascondiamo il contenuto in eccesso */
+}
+
+.gallery-image {
+    width: 100%; /* Facciamo in modo che l'immagine riempia tutto lo spazio disponibile */
+    height: 100%; 
+    object-fit: cover; 
+}

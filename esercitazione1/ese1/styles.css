@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif; /* Usiamo un font più comune */
+    margin: 0; /* Rimuoviamo il margine */
+    padding: 0;     /* Rimuoviamo il padding */
+    display: flex;  /* Usiamo flexbox per centrare il contenuto */
+    flex-direction: column; /* Allineiamo il contenuto in verticale */
+    align-items: center;    /* Allineiamo il contenuto al centro */
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;    /* Aggiunto padding sopra e sotto */
+    width: 100%;    /* Facciamo in modo che l'header occupi tutta la larghezza */
+    text-align: center;     /* Allineiamo il testo al centro */
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 15px;  /* Aggiunto padding */
+    width: 20%;    /* Fissiamo la larghezza della sidebar */
+    margin: 10px; /* Aggiunto margine */
+    text-align: center;     /* Allineiamo il testo al centro */
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 15px;
+    width: 70%;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;     /* Allineiamo il testo al centro */
+    position: fixed;    /* Fissiamo il footer in basso */
+    bottom: 0;  /* Allineiamo il footer in basso */
+}
