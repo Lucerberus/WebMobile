@@ -1,0 +1,43 @@
+.citta{
+    background-color: tomato;
+    color: white;
+    border: 4px solid #13ce32;
+    border-radius: 3%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+.flex-container{
+    display: flex;
+    direction: rtl;
+    background-color: cadetblue;
+}
+
+.flex-container > div{
+    background-color: rgb(204, 27, 27);
+    margin: 20px;
+    padding: 40px;
+    font-size: 30px;
+    font-family: cursive;   
+}
+
+.flex-item{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.grid-cont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20px;
+    justify-self:space-between;
+    gap: 10px;
+    background-color: crimson;
+    padding: 10px;
+}
